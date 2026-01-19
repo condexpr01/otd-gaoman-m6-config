@@ -9,7 +9,7 @@ url='https://github.com/condexpr01/otd-gaoman-m6-config.git'
 
 license=('MIT')
 
-#depends=()
+#depends=('opentabletdriver')
 #makedepends=('pandoc' 'gzip')
 
 source=('readme.md' 'LICENSE.txt' 't')
