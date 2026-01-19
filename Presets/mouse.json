@@ -4,7 +4,7 @@
     {
       "Tablet": "Gaomon M6",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Path": "OpenTabletDriver.Desktop.Output.RelativeMode",
         "Settings": [],
         "Enable": true
       },
@@ -18,30 +18,30 @@
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 254.0,
-          "Height": 158.75,
+          "Width": 64.0,
+          "Height": 36.0,
           "X": 127.0,
           "Y": 79.375,
           "Rotation": 0.0
         },
         "EnableClipping": true,
         "EnableAreaLimiting": false,
-        "LockAspectRatio": false
+        "LockAspectRatio": true
       },
       "RelativeModeSettings": {
-        "XSensitivity": 22.0,
-        "YSensitivity": 22.0,
+        "XSensitivity": 30.0,
+        "YSensitivity": 30.0,
         "RelativeRotation": 0.0,
-        "RelativeResetDelay": "00:00:00.0500000"
+        "RelativeResetDelay": "00:00:00.0300000"
       },
       "Bindings": {
         "TipActivationThreshold": 1.0,
         "TipButton": {
-          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
           "Settings": [
             {
-              "Property": "Binding",
-              "Value": "Tip"
+              "Property": "Button",
+              "Value": "Left"
             }
           ],
           "Enable": true
@@ -50,21 +50,21 @@
         "EraserButton": null,
         "PenButtons": [
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
             "Settings": [
               {
-                "Property": "Binding",
-                "Value": "Button 2"
+                "Property": "Button",
+                "Value": "Middle"
               }
             ],
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
             "Settings": [
               {
-                "Property": "Binding",
-                "Value": "Button 1"
+                "Property": "Button",
+                "Value": "Right"
               }
             ],
             "Enable": true
@@ -73,21 +73,37 @@
         "AuxButtons": [
           null,
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Path": "ScrollBinding.NewBulletproofScrollBinding",
             "Settings": [
               {
-                "Property": "Button",
-                "Value": "Backward"
+                "Property": "Property",
+                "Value": "Scroll Backward"
+              },
+              {
+                "Property": "Delay",
+                "Value": 13
+              },
+              {
+                "Property": "Amount",
+                "Value": 13
               }
             ],
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Path": "ScrollBinding.NewBulletproofScrollBinding",
             "Settings": [
               {
-                "Property": "Button",
-                "Value": "Forward"
+                "Property": "Property",
+                "Value": "Scroll Forward"
+              },
+              {
+                "Property": "Delay",
+                "Value": 13
+              },
+              {
+                "Property": "Amount",
+                "Value": 13
               }
             ],
             "Enable": true
@@ -124,12 +140,39 @@
         "MouseButtons": [],
         "MouseScrollUp": null,
         "MouseScrollDown": null,
-        "DisablePressure": false,
-        "DisableTilt": false
+        "DisablePressure": true,
+        "DisableTilt": true
       }
     }
   ],
   "LockUsableAreaDisplay": true,
   "LockUsableAreaTablet": true,
-  "Tools": []
+  "Tools": [
+    {
+      "Path": "ScrollBinding.ScrollBindingSettings",
+      "Settings": [
+        {
+          "Property": "ScrollDelay",
+          "Value": 15
+        },
+        {
+          "Property": "ForwardScroll",
+          "Value": 120
+        },
+        {
+          "Property": "BackwardScroll",
+          "Value": 120
+        },
+        {
+          "Property": "LeftScroll",
+          "Value": 120
+        },
+        {
+          "Property": "RightScroll",
+          "Value": 120
+        }
+      ],
+      "Enable": false
+    }
+  ]
 }
