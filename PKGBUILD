@@ -18,7 +18,7 @@ sha256sums=('SKIP' 'SKIP' 'SKIP')
 prefix=${PREFIX:-/usr}
 
 prepare() {
-	cp -r "$srcdir/../Presets" $srcdir
+	cp -r "$startdir/Presets" $srcdir
 }
 
 package() {
