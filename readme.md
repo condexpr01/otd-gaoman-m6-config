@@ -26,6 +26,11 @@ t art
 t mouse
 ```
 
+# install
+```shell
+makepkg -si
+```
+
 # see also
 > Run otd-daemon as admin for better experience on windows(may use msys2)
 
