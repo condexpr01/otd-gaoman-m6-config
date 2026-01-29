@@ -37,11 +37,11 @@
       "Bindings": {
         "TipActivationThreshold": 1.0,
         "TipButton": {
-          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
           "Settings": [
             {
-              "Property": "Button",
-              "Value": "Left"
+              "Property": "Binding",
+              "Value": "Button 3"
             }
           ],
           "Enable": true
@@ -50,21 +50,21 @@
         "EraserButton": null,
         "PenButtons": [
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
             "Settings": [
               {
-                "Property": "Button",
-                "Value": "Middle"
+                "Property": "Binding",
+                "Value": "Button 2"
               }
             ],
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
             "Settings": [
               {
-                "Property": "Button",
-                "Value": "Right"
+                "Property": "Binding",
+                "Value": "Button 1"
               }
             ],
             "Enable": true
