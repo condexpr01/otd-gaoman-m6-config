@@ -37,11 +37,11 @@
       "Bindings": {
         "TipActivationThreshold": 1.0,
         "TipButton": {
-          "Path": "OpenTabletDriver.Desktop.Binding.AdaptiveBinding",
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
           "Settings": [
             {
-              "Property": "Binding",
-              "Value": "Button 3"
+              "Property": "Button",
+              "Value": "Left"
             }
           ],
           "Enable": true

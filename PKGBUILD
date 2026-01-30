@@ -1,7 +1,7 @@
 # Maintainer: condexpr01(Vito Devlin) <condexpr01@outlook.com>
 PACKAGER='condexpr01(Vito Devlin) <condexpr01@outlook.com>'
 pkgname=otd-gaoman-m6-config
-pkgver=2026.01.20.1
+pkgver=2026.01.30.1
 pkgrel=1
 pkgdesc='linux opentabletdriver gaomon m6 configuration files'
 arch=('any')
