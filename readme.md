@@ -36,12 +36,13 @@ makepkg -si
 ```
 
 # see also
-> Run otd-daemon as admin for better experience on windows(may use msys2)
+> Run otd-daemon as administrator for better experience on windows,
+> so that you can play games, like `cs2` `minecraft` and so on with `mouse mode`
 
-
-
-
-
+> How: To keep all operators in a same window,
+> run shell(such as msys2 supported) as administrator,
+> then run `otd-daemon` with `&`,
+> use `t` to switch preset, like `t art`,`t mouse`,`t art` ,`t ink`
 
 
 
